@@ -16,4 +16,18 @@ public class TestMain {
         result = Main.branch(false, false);
         Assertions.assertFalse(result);
      }
+
+    @Test
+    public void testMain3(){
+        boolean result;
+        result = Main.branch(true, false);
+        Assertions.assertFalse(result);
+    }
+
+    @Test
+    public void testMain4(){
+        boolean result;
+        result = Main.branch(false, true);
+        Assertions.assertTrue(result);
+    }
 }
