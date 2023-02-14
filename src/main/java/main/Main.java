@@ -9,7 +9,7 @@ public class Main {
         System.out.println(c);
     }
 
-    private static boolean branch(boolean A, boolean B) {
+    public static boolean branch(boolean A, boolean B) {
         if(A){
            return A;
         }
